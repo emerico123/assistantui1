@@ -1,8 +1,5 @@
 import { makeAssistantToolUI } from "@assistant-ui/react";
-import { CheckIcon, ChevronDownIcon, ChevronUpIcon } from "lucide-react";
-import { useState } from "react";
-import { Button } from "../ui/button";
-
+ 
 // Optional: Define the type of args/outputs if needed
 type MyToolArgs = {
   someInput: string;
