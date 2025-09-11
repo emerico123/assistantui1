@@ -118,24 +118,24 @@ const ThreadWelcomeSuggestions: FC = () => {
     <div className="grid w-full gap-2 sm:grid-cols-2">
       {[
         {
-          title: "What are the advantages",
-          label: "of using Assistant Cloud?",
-          action: "What are the advantages of using Assistant Cloud?",
+          title: "What is Emerico",
+          label: "solution of S-Series?",
+          action: "What is Emerico solution of S-Series ?",
         },
         {
-          title: "Write code to",
-          label: `demonstrate topological sorting`,
-          action: `Write code to demonstrate topological sorting`,
+          title: "Help to Convert",
+          label: `1 US Dollar to Malaysian Ringgit`,
+          action: `Help to convert 1 US dollar to Malaysian Ringgit`,
         },
         {
-          title: "Help me write an essay",
-          label: `about AI chat applications`,
-          action: `Help me write an essay about AI chat applications`,
+          title: "Tell about Emerico ",
+          label: `V5 Series`,
+          action: `Tell about Emerico V5 Series`,
         },
         {
           title: "What is the weather",
-          label: "in San Francisco?",
-          action: "What is the weather in San Francisco?",
+          label: "in Petaling Jaya ?",
+          action: "What is the weather in Petaling Jaya ?",
         },
       ].map((suggestedAction, index) => (
         <motion.div
